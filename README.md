@@ -1,9 +1,7 @@
 # A pdf-image-extractor-gui Flet app
 
-An example of a minimal Flet app.
-
-To run the app:
+Build
 
 ```
-flet run [app_directory]
+pyinstaller main.py --onefile -w --icon=icon.ico --add-data "icon.ico;."  --name PDF-Image-Extractor-GUI --noconsole
 ```
